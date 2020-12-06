@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "Post",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "article",
+        "news",
+        "announcement",
+        "event",
+        "promotion"
+      ]
+    },
+    "view": {
+      "type": "integer"
+    },
+    "author": {
+      "model": "author"
+    },
+    "postDynamic": {
+      "type": "dynamiczone",
+      "components": [
+        "post.image",
+        "post.quote",
+        "post.rich-text"
+      ]
+    }
+  }
+}

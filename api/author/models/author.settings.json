@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "name": "Author",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "plugin": "admin",
+      "model": "user"
+    }
+  }
+}
