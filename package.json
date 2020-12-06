@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "description": "Strapi Backend for MCL-ACM Official Website",
   "scripts": {
-    "develop": "strapi develop --scripts-prepend-node-path",
-    "start": "strapi start --scripts-prepend-node-path",
-    "build": "strapi build --scripts-prepend-node-path",
-    "strapi": "strapi --scripts-prepend-node-path"
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
