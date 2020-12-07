@@ -30,9 +30,6 @@
     "view": {
       "type": "integer"
     },
-    "author": {
-      "model": "author"
-    },
     "postDynamic": {
       "type": "dynamiczone",
       "components": [
@@ -40,6 +37,9 @@
         "post.quote",
         "post.rich-text"
       ]
+    },
+    "author": {
+      "model": "author"
     }
   }
 }

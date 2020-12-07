@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "authors",
   "info": {
-    "name": "Author",
-    "description": ""
+    "name": "Author"
   },
   "options": {
     "increments": true,
