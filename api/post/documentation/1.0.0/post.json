@@ -695,6 +695,9 @@
               "name": {
                 "type": "string"
               },
+              "avatar": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },
