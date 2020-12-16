@@ -40,6 +40,10 @@
     },
     "author": {
       "model": "author"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
