@@ -12,10 +12,14 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "minLength": 1
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true,
+      "minLength": 1
     },
     "category": {
       "type": "enumeration",
@@ -26,9 +30,6 @@
         "event",
         "promotion"
       ]
-    },
-    "view": {
-      "type": "integer"
     },
     "postDynamic": {
       "type": "dynamiczone",
@@ -44,6 +45,11 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "views": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
     }
   }
 }

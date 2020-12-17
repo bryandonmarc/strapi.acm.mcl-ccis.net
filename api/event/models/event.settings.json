@@ -12,10 +12,15 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "minLength": 1
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "unique": false,
+      "minLength": 1,
+      "required": true
     },
     "category": {
       "type": "enumeration",
