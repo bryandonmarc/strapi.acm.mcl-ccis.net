@@ -31,12 +31,12 @@
         "promotion"
       ]
     },
-    "postDynamic": {
+    "mediaDynamic": {
       "type": "dynamiczone",
       "components": [
-        "post.image",
-        "post.quote",
-        "post.rich-text"
+        "media.image",
+        "media.quote",
+        "media.rich-text"
       ]
     },
     "author": {

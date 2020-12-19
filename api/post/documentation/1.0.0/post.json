@@ -541,7 +541,7 @@
               "promotion"
             ]
           },
-          "postDynamic": {
+          "mediaDynamic": {
             "type": "array",
             "items": {
               "oneOf": [
@@ -550,9 +550,9 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "post.image",
-                        "post.quote",
-                        "post.rich-text"
+                        "media.image",
+                        "media.quote",
+                        "media.rich-text"
                       ]
                     },
                     "id": {
@@ -638,9 +638,9 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "post.image",
-                        "post.quote",
-                        "post.rich-text"
+                        "media.image",
+                        "media.quote",
+                        "media.rich-text"
                       ]
                     },
                     "id": {
@@ -662,9 +662,9 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "post.image",
-                        "post.quote",
-                        "post.rich-text"
+                        "media.image",
+                        "media.quote",
+                        "media.rich-text"
                       ]
                     },
                     "id": {
@@ -745,7 +745,7 @@
               "promotion"
             ]
           },
-          "postDynamic": {
+          "mediaDynamic": {
             "type": "array",
             "items": {
               "oneOf": [
@@ -754,9 +754,9 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "post.image",
-                        "post.quote",
-                        "post.rich-text"
+                        "media.image",
+                        "media.quote",
+                        "media.rich-text"
                       ]
                     },
                     "id": {
@@ -842,9 +842,9 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "post.image",
-                        "post.quote",
-                        "post.rich-text"
+                        "media.image",
+                        "media.quote",
+                        "media.rich-text"
                       ]
                     },
                     "id": {
@@ -866,9 +866,9 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "post.image",
-                        "post.quote",
-                        "post.rich-text"
+                        "media.image",
+                        "media.quote",
+                        "media.rich-text"
                       ]
                     },
                     "id": {

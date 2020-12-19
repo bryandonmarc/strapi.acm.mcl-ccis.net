@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_post_galleries",
+  "info": {
+    "name": "Gallery",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

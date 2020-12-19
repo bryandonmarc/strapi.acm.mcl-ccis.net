@@ -41,6 +41,15 @@
     },
     "endTime": {
       "type": "string"
+    },
+    "mediaDynamic": {
+      "type": "dynamiczone",
+      "components": [
+        "media.gallery",
+        "media.image",
+        "media.quote",
+        "media.rich-text"
+      ]
     }
   }
 }
