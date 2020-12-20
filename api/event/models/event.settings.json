@@ -16,12 +16,6 @@
       "unique": true,
       "minLength": 1
     },
-    "description": {
-      "type": "text",
-      "unique": false,
-      "minLength": 1,
-      "required": true
-    },
     "category": {
       "type": "enumeration",
       "enum": [
@@ -42,14 +36,8 @@
     "endTime": {
       "type": "string"
     },
-    "mediaDynamic": {
-      "type": "dynamiczone",
-      "components": [
-        "media.gallery",
-        "media.image",
-        "media.quote",
-        "media.rich-text"
-      ]
+    "post": {
+      "model": "post"
     }
   }
 }
